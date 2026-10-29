@@ -10,8 +10,16 @@ public class CalculatorGui {
         JLabel lblNum1 =
         new JLabel("First Number:");
 
+        JTextField txtNum1 =    
+            new JTextField(10);
+
         JLabel lblNum2 =
         new JLabel("Second Number:");
+
+        JTextField txtNum2 =    
+            new JTextField(10);
+
+    frame.setVisible(true);
     }
     
 }
