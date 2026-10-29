@@ -7,6 +7,11 @@ public class CalculatorGui {
 
         frame.setLayout(new FlowLayout()
     );
+        JLabel lblNum1 =
+        new JLabel("First Number:");
+
+        JLabel lblNum2 =
+        new JLabel("Second Number:");
     }
     
 }
